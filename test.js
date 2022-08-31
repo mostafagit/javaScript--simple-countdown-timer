@@ -1,12 +1,23 @@
-
-
-    let timeInterval
+let timeInterval
     let timeStop = false
+
     const clock = document.querySelector(".timer-section");
 
-        let time = 180000
+    // const calcTime = ()=>{
+    //     let currentDate = new Date().getTime()
+    //     const targetDate = 1665109800
+    //     const time = (targetDate* 1000) - currentDate;
+    //     return time
+    //    }
+   
+
+
+    let time = 180000
 
     let timer =  function timeLeft(){
+
+        // const time = calcTime()
+
            if(time < 0){
             return
             }
